@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .font-bebas {
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+  .font-fredoka {
+    font-family: "Fredoka", sans-serif;
+  }
+
+  /* Tambahkan Aguafina */
+  .font-aguafina {
+    font-family: "Aguafina Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @keyframes fadeInUp {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+}
